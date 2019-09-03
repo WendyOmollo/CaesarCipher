@@ -22,6 +22,7 @@ public class App {
             Decrypt  testDecryption = new Decrypt(response,key);
             testDecryption.setDecrypted();
             System.out.println(testDecryption.setDecrypted());
-        }
+        }else {
+            System.out.println("Invalid");
     }
 }
