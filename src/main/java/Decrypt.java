@@ -6,6 +6,6 @@ class Decrypt {
     public Decrypt(String response , int key){
         this.key = key;
         this.response = response;
-        
+
     }
 }
