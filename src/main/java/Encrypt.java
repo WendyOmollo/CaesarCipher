@@ -14,4 +14,22 @@
             encrypted+=ch;
         }
     }
+     public int getKey() {
+
+         return key;
+     }
+
+     public String getResponse() {
+
+         return response;
+     }
+
+     public String setEncrypted() {
+
+         return encrypted;
+     }
+
+
+
+
 }
